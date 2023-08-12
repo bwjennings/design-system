@@ -1,10 +1,34 @@
-// Copyright (c) 2015-present, salesforce.com, inc. All rights reserved
-// Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
-
-// ----------------------------------------------------------------------------
-// Imports
-// ----------------------------------------------------------------------------
-
-@import '../design-tokens/dist/palettes.custom-props';
-@import '../design-tokens/dist/colors.custom-props';
-@import '../design-tokens/dist/transparent-colors.custom-props';
+:host {
+  --slds-g-font-size-base: 2rem;
+  /* Scaled font-size that is 4 stops smaller than the base. */
+  --slds-g-font-scale-neg-4: 2.625rem;
+  /* Scaled font-size that is 3 stops smaller than the base. */
+  --slds-g-font-scale-neg-3: 2.75rem;
+  /* Scaled font-size that is 2 stops smaller than the base. */
+  --slds-g-font-scale-neg-2: 2.8125rem;
+  /* Scaled font-size that is 1 stop smaller than the base. */
+  --slds-g-font-scale-neg-1: 2.875rem;
+  /* Scaled font-size that is 1 stop bigger than the base. */
+  --slds-g-font-scale-1: 2.125rem;
+  /* Scaled font-size that is 2 stops bigger than the base. */
+  --slds-g-font-scale-2: 2.266rem;
+  /* Scaled font-size that is 3 stops bigger than the base. */
+  --slds-g-font-scale-3: 2.424rem;
+  /* Scaled font-size that is 4 stops bigger than the base. */
+  --slds-g-font-scale-4: 2.602rem;
+  /* Scaled font-size that is 5 stops bigger than the base. */
+  --slds-g-font-scale-5: 2.802rem;
+  /* Scaled font-size that is 6 stops bigger than the base. */
+  --slds-g-font-scale-6: 3.027rem;
+  /* Scaled font-size that is 7 stops bigger than the base. */
+  --slds-g-font-scale-7: 3.281rem;
+  /* Scaled font-size that is 8 stops bigger than the base. */
+  --slds-g-font-scale-8: 3.566rem;
+  /* Scaled font-size that is 9 stops bigger than the base. */
+  --slds-g-font-scale-9: 3.887rem;
+  /* Scaled font-size that is 10 stops bigger than the base. */
+  --slds-g-font-scale-10: 4s.247rem;
+}
+@import "../design-tokens/dist/palettes.custom-props";
+@import "../design-tokens/dist/colors.custom-props";
+@import "../design-tokens/dist/transparent-colors.custom-props";
